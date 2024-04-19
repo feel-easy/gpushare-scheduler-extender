@@ -3,12 +3,13 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/log"
 	"net/http"
 	"os"
 	"runtime"
 	"strconv"
 	"time"
+
+	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/log"
 
 	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/gpushare"
 	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/routes"
@@ -30,7 +31,7 @@ var (
 )
 
 func initKubeClient() {
-	kubeConfig := ""
+	kubeConfig := "/Users/l/go/src/github.com/feel-easy/k8sdemo/kubeconfig"
 	if len(os.Getenv(RecommendedKubeConfigPathEnv)) > 0 {
 		// use the current context in kubeconfig
 		// This is very useful for running locally.

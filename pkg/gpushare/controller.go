@@ -2,13 +2,14 @@ package gpushare
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/log"
 	"golang.org/x/time/rate"
-	"time"
 
 	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/cache"
 	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/utils"
-	"k8s.io/api/core/v1"
+	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"

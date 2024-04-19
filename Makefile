@@ -11,7 +11,7 @@ endif
 IMAGE                   := registry.cn-hangzhou.aliyuncs.com/acs/gpushare-scheduler-extender
 GIT_VERSION             := $(shell git rev-parse --short=7 HEAD)
 COMMIT_ID 				:= $(shell git describe --match=NeVeRmAtCh --abbrev=99 --tags --always --dirty)
-GOLANG_DOCKER_IMAGE     := golang:1.19
+GOLANG_DOCKER_IMAGE     := golang:1.20
 
 build-server:
 	go build -o bin/gpushare-sche-extender ./cmd/main.go
