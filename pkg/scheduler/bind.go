@@ -1,9 +1,9 @@
 package scheduler
 
 import (
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/cache"
-	"k8s.io/apimachinery/pkg/types"
-	schedulerapi "k8s.io/kube-scheduler/extender/v1"
+    "github.com/feel-easy/gpushare-scheduler-extender/pkg/cache"
+    "k8s.io/apimachinery/pkg/types"
+    schedulerapi "k8s.io/kube-scheduler/extender/v1"
 )
 
 // Bind is responsible for binding node and pod

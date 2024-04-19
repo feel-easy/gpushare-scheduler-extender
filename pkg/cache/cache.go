@@ -1,14 +1,15 @@
 package cache
 
 import (
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/log"
-	"sync"
+    "sync"
 
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/utils"
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/types"
-	corelisters "k8s.io/client-go/listers/core/v1"
+    "github.com/feel-easy/gpushare-scheduler-extender/pkg/log"
+
+    "github.com/feel-easy/gpushare-scheduler-extender/pkg/utils"
+    v1 "k8s.io/api/core/v1"
+    "k8s.io/apimachinery/pkg/labels"
+    "k8s.io/apimachinery/pkg/types"
+    corelisters "k8s.io/client-go/listers/core/v1"
 )
 
 type SchedulerCache struct {

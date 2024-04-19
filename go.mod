@@ -1,4 +1,4 @@
-module github.com/AliyunContainerService/gpushare-scheduler-extender
+module github.com/feel-easy/gpushare-scheduler-extender
 
 go 1.20
 

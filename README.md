@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/AliyunContainerService/gpushare-scheduler-extender.svg?style=svg)](https://circleci.com/gh/AliyunContainerService/gpushare-scheduler-extender)
 [![Build Status](https://travis-ci.org/AliyunContainerService/gpushare-scheduler-extender.svg?branch=master)](https://travis-ci.org/AliyunContainerService/gpushare-scheduler-extender) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/AliyunContainerService/gpushare-scheduler-extender)](https://goreportcard.com/report/github.com/AliyunContainerService/gpushare-scheduler-extender)
+[![Go Report Card](https://goreportcard.com/badge/github.com/feel-easy/gpushare-scheduler-extender)](https://goreportcard.com/report/github.com/feel-easy/gpushare-scheduler-extender)
 
 
 ## Overview
@@ -36,7 +36,7 @@ You can check this [User Guide](docs/userguide.md).
 ### Scheduler Extender
 
 ```bash
-git clone https://github.com/AliyunContainerService/gpushare-scheduler-extender.git && cd gpushare-scheduler-extender
+git clone https://github.com/feel-easy/gpushare-scheduler-extender.git && cd gpushare-scheduler-extender
 make build-image
 ```
 

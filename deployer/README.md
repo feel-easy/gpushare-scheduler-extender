@@ -11,7 +11,7 @@
 1.Just run:
 
 ```
-git clone https://github.com/AliyunContainerService/gpushare-scheduler-extender.git
+git clone https://github.com/feel-easy/gpushare-scheduler-extender.git
 cd gpushare-scheduler-extender/deployer/chart
 helm install --name gpushare --namespace kube-system  --set masterCount=3 gpushare-installer
 ```

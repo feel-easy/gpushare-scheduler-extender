@@ -1,12 +1,13 @@
 package cache
 
 import (
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/log"
-	"sync"
+    "sync"
 
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/utils"
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/types"
+    "github.com/feel-easy/gpushare-scheduler-extender/pkg/log"
+
+    "github.com/feel-easy/gpushare-scheduler-extender/pkg/utils"
+    v1 "k8s.io/api/core/v1"
+    "k8s.io/apimachinery/pkg/types"
 )
 
 type DeviceInfo struct {

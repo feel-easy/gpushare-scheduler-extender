@@ -1,6 +1,6 @@
-FROM golang:1.20-alpine as build
+FROM golang:1.20 as build
 
-WORKDIR /go/src/github.com/AliyunContainerService/gpushare-scheduler-extender
+WORKDIR /go/src/github.com/feel-easy/gpushare-scheduler-extender
 COPY . .
 
 RUN go build -o /go/bin/gpushare-sche-extender cmd/*.go
